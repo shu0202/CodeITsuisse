@@ -7,8 +7,8 @@ from codeitsuisse import app
 
 logger = logging.getLogger(__name__)
 
-@app.route('/square2', methods=['POST'])
-def evaluate():
+@app.route('/asteroid', methods=['POST'])
+def evaluateas():
     data = request.get_json()
     logging.info("data sent for evaluation {}".format(data))
     inputValue = data.get("input")
