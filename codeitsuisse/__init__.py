@@ -4,5 +4,7 @@ import codeitsuisse.routes.square
 
 import codeitsuisse.routes.asteroid
 
+import codeitsuisse.routes.parasite
+
 
 
