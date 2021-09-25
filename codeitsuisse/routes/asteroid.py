@@ -76,6 +76,6 @@ def evaluateas():
         dict = {"input": j,"score": score,"origin": forigin}
         result.append(dict)
     
-    return jsonify(result)
+    return json.dumps(result)
 
 
