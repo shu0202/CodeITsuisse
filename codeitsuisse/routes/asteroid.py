@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 def evaluateas():
     data = request.get_json()
     logging.info("data sent for evaluation {}".format(data))
-    data1 = data.get("test cases")
+    data1 = data.get("test_cases")
     result = []
     for j in data1:
         a = j
