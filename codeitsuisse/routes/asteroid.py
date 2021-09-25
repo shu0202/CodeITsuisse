@@ -27,7 +27,7 @@ def evaluateas():
                     rcurrent = a[i]
                     current = a[i]
                     current_c = 1
-                    fscore = 1
+                    fscore = 0
                     sscore = 0
                     for k in range(1,len(a)):
                         if (i-k) >= 0:
