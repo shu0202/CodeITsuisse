@@ -12,7 +12,6 @@ def evaluate():
     data = request.get_json()
     logging.info("data sent for evaluation {}".format(data))
     inputValue = data.get("input")
-    print ("inputValue")
     logging.info("My result :{}".format(inputValue))
     return json.dumps(inputValue)
 
