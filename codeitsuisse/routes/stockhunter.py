@@ -27,10 +27,11 @@ def mklist(en_first,en_second,ta_first,ta_second):
 def evaluate():
     data = request.get_json()
     logging.info("data sent for evaluation {}".format(data))
-    gridDepth = data.get("gridDepth")
-    gridKey = data.get("gridKey")
-    horizontalStepper = data.get("horizontalStepper")
-    verticalStepper = data.get("verticalStepper")
+    dic=data[0]
+    gridDepth = dic["gridDepth"]
+    gridKey = dic["gridKey"]
+    horizontalStepper = dic["horizontalStepper"]
+    verticalStepper = dic["verticalStepper"]
     en_first = 0
     en_second = 0
     ta_first = 2
