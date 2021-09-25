@@ -6,7 +6,7 @@ from flask import request, jsonify
 
 from codeitsuisse import app
 
-logger = logging.getLogger(name)
+logger = logging.getLogger(__name__)
 
 @app.route('/fixedrace', methods=['POST'])
 def fixedrace():
