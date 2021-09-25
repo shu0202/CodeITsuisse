@@ -76,7 +76,7 @@ def evaluateas():
                     score = 1  
         dict = {"input": j,"score": score,"origin": forigin}
         result.append(dict)
-    
+    logging.info("My result :{}".format(result))
     return json.dumps(result)
 
 
