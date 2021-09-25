@@ -8,4 +8,6 @@ import codeitsuisse.routes.parasite
 
 import codeitsuisse.routes.stockhunter
 
+import codeitsuisse.routes.fixedrace
+
 
