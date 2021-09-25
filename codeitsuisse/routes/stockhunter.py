@@ -67,7 +67,6 @@ def evaluate():
             elif risk_s == 2:
                 sub_list_r.append("S")
         end_list_r.append(sub_list_r)
-    logging.info("My result :{}".format(end_list_r))
     return json.dumps(end_list_r)      
 
 
