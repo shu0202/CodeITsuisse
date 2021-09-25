@@ -6,5 +6,6 @@ import codeitsuisse.routes.asteroid
 
 import codeitsuisse.routes.parasite
 
+import codeitsuisse.routes.stockhunter
 
 
