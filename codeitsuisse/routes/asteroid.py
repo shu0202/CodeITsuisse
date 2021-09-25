@@ -22,7 +22,6 @@ def evaluateas():
             if i != 0 and i!= (len(a)-1):
                 origin = i
                 if a[i] == a[i-1] == a[i+1]:
-                    multiplier = 1
                     lcurrent = a[i]
                     rcurrent = a[i]
                     current = a[i]
