@@ -9,11 +9,11 @@ logger = logging.getLogger(__name__)
 
 @app.route('/asteroid', methods=['POST'])
 def evaluateas():
-    o = request.get_json()
-    logging.info("data sent for evaluation {}".format(o))
-    data = o.get("test cases")
+    data = request.get_json()
+    logging.info("data sent for evaluation {}".format(data))
+    data1 = data.get("test cases")
     result = []
-    for j in data:
+    for j in data1:
         a = j
         i = 0
         score = 0
